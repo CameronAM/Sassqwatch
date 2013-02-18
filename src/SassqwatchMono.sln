@@ -3,18 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sassqwatch", "Sassqwatch\Sassqwatch.csproj", "{5AC3D630-F9B0-4BC4-8509-B5F3FC338620}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yaclp", "..\lib\modules\YACLP\src\Yaclp\Yaclp.csproj", "{0FC99D78-337A-4039-9FAE-A9B1E86FF0E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yaclp.BetterSample", "..\lib\modules\YACLP\src\Yaclp.BetterSample\Yaclp.BetterSample.csproj", "{8B92623E-29E9-408A-A87F-2F070B6124D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FC99D78-337A-4039-9FAE-A9B1E86FF0E9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0FC99D78-337A-4039-9FAE-A9B1E86FF0E9}.Debug|x86.Build.0 = Debug|Any CPU
+		{0FC99D78-337A-4039-9FAE-A9B1E86FF0E9}.Release|x86.ActiveCfg = Release|Any CPU
+		{0FC99D78-337A-4039-9FAE-A9B1E86FF0E9}.Release|x86.Build.0 = Release|Any CPU
 		{5AC3D630-F9B0-4BC4-8509-B5F3FC338620}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{5AC3D630-F9B0-4BC4-8509-B5F3FC338620}.Debug|x86.Build.0 = Debug|Any CPU
 		{5AC3D630-F9B0-4BC4-8509-B5F3FC338620}.Release|x86.ActiveCfg = Release|Any CPU
 		{5AC3D630-F9B0-4BC4-8509-B5F3FC338620}.Release|x86.Build.0 = Release|Any CPU
+		{8B92623E-29E9-408A-A87F-2F070B6124D8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8B92623E-29E9-408A-A87F-2F070B6124D8}.Debug|x86.Build.0 = Debug|Any CPU
+		{8B92623E-29E9-408A-A87F-2F070B6124D8}.Release|x86.ActiveCfg = Release|Any CPU
+		{8B92623E-29E9-408A-A87F-2F070B6124D8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Sassqwatch\Sassqwatch.csproj
+		StartupItem = ..\lib\modules\YACLP\src\Yaclp.BetterSample\Yaclp.BetterSample.csproj
 	EndGlobalSection
 EndGlobal
