@@ -1,0 +1,3 @@
+[submodule "lib/modules/YACLP"]
+	path = lib/modules/YACLP
+	url = https://github.com/uglybugger/YACLP.git
